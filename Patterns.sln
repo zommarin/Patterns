@@ -1,8 +1,74 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D8DB4F2-41EE-4177-9913-5378D5D0737C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{D6DD8923-6B69-4DA6-9E1D-7ABB6EEA1E8D}"
+	ProjectSection(SolutionItems) = preProject
+		CSharp\README.md = CSharp\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{8A0CC4DE-1DBE-413F-9064-8DC0EE85B552}"
+	ProjectSection(SolutionItems) = preProject
+		WPF\README.md = WPF\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerShell", "PowerShell", "{7AE20785-CE9A-4490-BDF9-EF42791A60E8}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShell\README.md = PowerShell\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVM", "MVVM", "{4184CF09-6AEA-40C3-A867-323FF4E037C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zommarin.Patterns.MVVM.Model", "MVVM\Zommarin.Patterns.MVVM.Model\Zommarin.Patterns.MVVM.Model.csproj", "{CF43C3E8-9A58-4203-8990-E25CB5DF7226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zommarin.Patterns.MVVM.ViewModel", "MVVM\Zommarin.Patterns.MVVM.ViewModel\Zommarin.Patterns.MVVM.ViewModel.csproj", "{86A6AC2D-220A-4823-82EE-E7C3A03DF854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zommarin.Patterns.MVVM.View", "MVVM\Zommarin.Patterns.MVVM.View\Zommarin.Patterns.MVVM.View.csproj", "{5003E501-D4E0-4CE1-9385-6F47ED8A2718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zommarin.MVVM", "Zommarin.MVVM\Zommarin.MVVM.csproj", "{A505F86F-D69E-465B-89A5-9BC8F5C32D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zommarin.WPF", "MVVM\Zommarin.WPF\Zommarin.WPF.csproj", "{4D7CC7FC-B882-4BF2-BEDC-CAC00090A4A3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF43C3E8-9A58-4203-8990-E25CB5DF7226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF43C3E8-9A58-4203-8990-E25CB5DF7226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF43C3E8-9A58-4203-8990-E25CB5DF7226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF43C3E8-9A58-4203-8990-E25CB5DF7226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A6AC2D-220A-4823-82EE-E7C3A03DF854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A6AC2D-220A-4823-82EE-E7C3A03DF854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A6AC2D-220A-4823-82EE-E7C3A03DF854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A6AC2D-220A-4823-82EE-E7C3A03DF854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5003E501-D4E0-4CE1-9385-6F47ED8A2718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5003E501-D4E0-4CE1-9385-6F47ED8A2718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5003E501-D4E0-4CE1-9385-6F47ED8A2718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5003E501-D4E0-4CE1-9385-6F47ED8A2718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A505F86F-D69E-465B-89A5-9BC8F5C32D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A505F86F-D69E-465B-89A5-9BC8F5C32D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A505F86F-D69E-465B-89A5-9BC8F5C32D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A505F86F-D69E-465B-89A5-9BC8F5C32D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7CC7FC-B882-4BF2-BEDC-CAC00090A4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7CC7FC-B882-4BF2-BEDC-CAC00090A4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7CC7FC-B882-4BF2-BEDC-CAC00090A4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7CC7FC-B882-4BF2-BEDC-CAC00090A4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF43C3E8-9A58-4203-8990-E25CB5DF7226} = {4184CF09-6AEA-40C3-A867-323FF4E037C9}
+		{86A6AC2D-220A-4823-82EE-E7C3A03DF854} = {4184CF09-6AEA-40C3-A867-323FF4E037C9}
+		{5003E501-D4E0-4CE1-9385-6F47ED8A2718} = {4184CF09-6AEA-40C3-A867-323FF4E037C9}
+		{A505F86F-D69E-465B-89A5-9BC8F5C32D3B} = {4184CF09-6AEA-40C3-A867-323FF4E037C9}
+		{4D7CC7FC-B882-4BF2-BEDC-CAC00090A4A3} = {4184CF09-6AEA-40C3-A867-323FF4E037C9}
 	EndGlobalSection
 EndGlobal
