@@ -40,12 +40,19 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModelContainer.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Zommarin.MVVM\Zommarin.MVVM.csproj">
+      <Project>{A505F86F-D69E-465B-89A5-9BC8F5C32D3B}</Project>
+      <Name>Zommarin.MVVM</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
